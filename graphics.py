@@ -30,7 +30,6 @@ PLAYER_RIGHT_3 = PLAYER_RIGHT_0
 PLAYER_RIGHT_4 = player_sheet.get_image(190, 135, 24, 35).convert()
 PLAYER_RIGHT_5 = player_sheet.get_image(218, 133, 19, 35).convert()
 PLAYER_RIGHT_6 = player_sheet.get_image(242, 132, 18, 37).convert()
-# tọa độ right down là right up, (lấy tọa độ bị ngược)
 PLAYER_UP_RIGHT = player_sheet.get_image(199, 5, 22, 50).convert()
 
 PLAYER_RIGHT_UP_0 = player_sheet.get_image(145, 95, 20, 35).convert()
@@ -53,7 +52,7 @@ sniper_sheet = SpriteSheet(os.path.join(imgFolder, 'enemies.png'))
 SNIPER_LEFT_DOWN = sniper_sheet.get_image(135, 249, 32, 57).convert()
 SNIPER_LEFT = sniper_sheet.get_image(98, 261, 37, 47).convert()
 SNIPER_LEFT_UP = sniper_sheet.get_image(217, 309, 33, 49).convert()
-soldier_sheet = sniper_sheet  # Both the animations are there in the same sheet
+soldier_sheet = sniper_sheet
 SOLDIER_0 = soldier_sheet.get_image(22, 4, 37, 40).convert()
 SOLDIER_1 = soldier_sheet.get_image(60, 4, 35, 46).convert()
 SOLDIER_2 = soldier_sheet.get_image(96, 4, 23, 43).convert()

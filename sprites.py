@@ -1,6 +1,3 @@
-# sprites of the game
-
-
 import pygame
 from camera import *
 from settings import *
